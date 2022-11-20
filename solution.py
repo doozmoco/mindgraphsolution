@@ -95,9 +95,18 @@ print(listclub)
 print(listfest)
 with open('output.json', 'w') as outfile:
     json.dump(new_table, outfile)
-dc=pd.DataFrame(listclub)
-df=pd.DataFrame(listfest)
-dc.to_excel("club.xlsx")
-df.to_excel("fest.xlsx")
+with open('FrequencyClubsFests.txt', 'w') as filehandle:
+    filehandle.write(f'{str(len(listclub))} ')
+    filehandle.write(f'{str(len(listclub[0]))}\n')
+    for listitem in listclub:
+        for item in listitem:
+            filehandle.write(f'{str(item)} ')
+        filehandle.write(f'\n')
+    filehandle.write(f'{str(len(listfest))} ')
+    filehandle.write(f'{str(len(listfest[0]))}\n')
+    for listitem in listfest:
+        for item in listitem:
+            filehandle.write(f"{str(item)} ")
+        filehandle.write(f'\n')
 
 
