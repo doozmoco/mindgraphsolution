@@ -8,7 +8,7 @@ layout="wide")
 st.write("Team Members")
 st.write("1.se20uari089, G Lohit(A.I))")
 st.write("2.se20ucse159, Vivek Dhir.R(CSE)")
-st.write("3.se20ucse001, Aakarsh Reddy.T(A.I)")
+st.write("3.se20uari001, Aakarsh Reddy.T(A.I)")
 
 st.write("Representation of data in bargraph format:")
 
