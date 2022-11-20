@@ -11,5 +11,5 @@ command line
 this will show you the website on your default browser
 the code to generate profiles is written in a well pluggable format.
 streamlit satisfied 
-and profile is generated in output.json
+and profile is generated in output.json 
 
